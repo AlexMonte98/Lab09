@@ -8,9 +8,12 @@ public class TestModel {
 
 		System.out.println("TestModel -- TODO");
 		
-//		System.out.println("Creo il grafo relativo al 2000");
-//		model.createGraph(2000);
 		
+		
+//		System.out.println("Creo il grafo relativo al 2000");
+		model.creaGrafo(2000);
+		
+				
 //		List<Country> countries = model.getCountries();
 //		System.out.format("Trovate %d nazioni\n", countries.size());
 
@@ -18,7 +21,8 @@ public class TestModel {
 		
 //		Map<Country, Integer> stats = model.getCountryCounts();
 //		for (Country country : stats.keySet())
-//			System.out.format("%s %d\n", country, stats.get(country));		
+//			System.out.format("%s %d\n", country, stats.get(country));
+		System.out.println(model.listaStati());
 		
 	}
 
